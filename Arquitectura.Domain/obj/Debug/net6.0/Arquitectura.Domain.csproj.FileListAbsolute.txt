@@ -1,0 +1,6 @@
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\Arquitectura.Domain.csproj.AssemblyReference.cache
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\Arquitectura.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\Arquitectura.Domain.AssemblyInfoInputs.cache
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\Arquitectura.Domain.AssemblyInfo.cs
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\Arquitectura.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\Arquitectura.Domain.sourcelink.json

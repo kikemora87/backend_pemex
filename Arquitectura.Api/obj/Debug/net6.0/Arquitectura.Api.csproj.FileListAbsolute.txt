@@ -1,0 +1,7 @@
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Api\obj\Debug\net6.0\Arquitectura.Api.csproj.AssemblyReference.cache
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Api\obj\Debug\net6.0\Arquitectura.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Api\obj\Debug\net6.0\Arquitectura.Api.AssemblyInfoInputs.cache
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Api\obj\Debug\net6.0\Arquitectura.Api.AssemblyInfo.cs
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Api\obj\Debug\net6.0\Arquitectura.Api.csproj.CoreCompileInputs.cache
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Api\obj\Debug\net6.0\Arquitectura.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Api\obj\Debug\net6.0\Arquitectura.Api.sourcelink.json

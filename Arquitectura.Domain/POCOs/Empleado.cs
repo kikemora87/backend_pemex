@@ -22,6 +22,5 @@ namespace Arquitectura.Domain.POCOs
         public String estado { get; set; }
         public String pais { get; set; }
         public string? filecv { get; set; }
-        public IFormFile? File { get; set; }
     }
 }

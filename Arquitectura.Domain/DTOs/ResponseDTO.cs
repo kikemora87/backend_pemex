@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Arquitectura.Domain.DTOs
 {
-    public class ResponseDTO
+    public class ResponseDTO<T>
     {
         public ResponseDTO()
         {
