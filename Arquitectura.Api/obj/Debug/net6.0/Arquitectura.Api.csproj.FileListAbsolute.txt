@@ -72,3 +72,4 @@ C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Api\obj\Debug\
 C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Api\obj\Debug\net6.0\Arquitectura.Api.pdb
 C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Api\obj\Debug\net6.0\Arquitectura.Api.genruntimeconfig.cache
 C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Api\obj\Debug\net6.0\ref\Arquitectura.Api.dll
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Api\obj\Debug\net6.0\Arquitectura.Api.MvcApplicationPartsAssemblyInfo.cs

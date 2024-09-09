@@ -29,7 +29,7 @@ namespace Arquitectura.Aplication.Handlers.Todo.Commands.Create
         public string ciudad { get; set; }
         public string estado { get; set; }
         public string pais { get; set; }
-        [Required(ErrorMessage = "El Archivo descripción es requerido")]
+        [Required(ErrorMessage = "El Archivo es requerido")]
         public IFormFile File { get; set; }
 
     }

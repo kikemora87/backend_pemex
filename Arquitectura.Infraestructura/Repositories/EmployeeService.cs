@@ -54,8 +54,7 @@ namespace Arquitectura.Infraestructura.Repositories
                                                                     "LIMIT " + paginacionDTO.RecordsPorPagina + " OFFSET " + page,
                                                                     new { });
             return employeeList;*/
-            var employeeList = await _dbService.GetAll<Empleado>(@"SELECT * 
-                                                                    FROM public.empleados WHERE activo=1",
+            var employeeList = await _dbService.GetAll<Empleado>(@"SELECT * FROM public.empleados WHERE activo=true",
                                                                    new { });
             return employeeList;
 

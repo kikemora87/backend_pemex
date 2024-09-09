@@ -7,11 +7,11 @@ using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Arquitectura.Api.Controllers
+namespace Arquitectura.Api.Controllers.v1
 {
     [ApiController]
-    [Route("[controller]")]
-    public class EmpleadosController : Controller
+    [Route("api/v1/[controller]")]
+    public class EmpleadosController : ControllerBase
     {
         private readonly IMediator _mediator;
 
@@ -37,13 +37,13 @@ namespace Arquitectura.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] CreateCommand req)
+        public async Task<ActionResult> Post([FromForm] CreateCommand req)
         {
             return Ok(await _mediator.Send(req));
         }
 
         [HttpPut()]
-        public async Task<ActionResult> Put([FromBody] UpdateCommand req)
+        public async Task<ActionResult> Put([FromForm] UpdateCommand req)
         {
             return Ok(await _mediator.Send(req));
         }
@@ -55,7 +55,7 @@ namespace Arquitectura.Api.Controllers
             return Ok(await _mediator.Send(new DeleteCommand { Id = id }));
         }
 
-        public ProblemDetails FormatoError(String type, String details)
+        public ProblemDetails FormatoError(string type, string details)
         {
             ProblemDetails errors = new ProblemDetails()
             {

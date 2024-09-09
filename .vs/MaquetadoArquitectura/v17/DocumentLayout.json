@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Kikemora\\source\\repos\\MaquetadoArquitectura\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0202A496-E220-4B73-95CD-D52FF5B32F47}|Arquitectura.Aplication\\Arquitectura.Aplication.csproj|c:\\users\\kikemora\\source\\repos\\maquetadoarquitectura\\arquitectura.aplication\\handlers\\todo\\queries\\getall\\getallhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0202A496-E220-4B73-95CD-D52FF5B32F47}|Arquitectura.Aplication\\Arquitectura.Aplication.csproj|solutionrelative:arquitectura.aplication\\handlers\\todo\\queries\\getall\\getallhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC5127FE-FD37-4CAC-A719-7AF78199EADF}|Arquitectura.Infraestructura\\Arquitectura.Infraestructura.csproj|c:\\users\\kikemora\\source\\repos\\maquetadoarquitectura\\arquitectura.infraestructura\\repositories\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC5127FE-FD37-4CAC-A719-7AF78199EADF}|Arquitectura.Infraestructura\\Arquitectura.Infraestructura.csproj|solutionrelative:arquitectura.infraestructura\\repositories\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0202A496-E220-4B73-95CD-D52FF5B32F47}|Arquitectura.Aplication\\Arquitectura.Aplication.csproj|c:\\users\\kikemora\\source\\repos\\maquetadoarquitectura\\arquitectura.aplication\\handlers\\todo\\queries\\getall\\getallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0202A496-E220-4B73-95CD-D52FF5B32F47}|Arquitectura.Aplication\\Arquitectura.Aplication.csproj|solutionrelative:arquitectura.aplication\\handlers\\todo\\queries\\getall\\getallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8D1CF40-5641-4C06-AB7A-6DA2504FD149}|Arquitectura.Api\\Arquitectura.Api.csproj|c:\\users\\kikemora\\source\\repos\\maquetadoarquitectura\\arquitectura.api\\controllers\\v1\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8D1CF40-5641-4C06-AB7A-6DA2504FD149}|Arquitectura.Api\\Arquitectura.Api.csproj|solutionrelative:arquitectura.api\\controllers\\v1\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Kikemora\\source\\repos\\MaquetadoArquitectura\\Arquitectura.Infraestructura\\Repositories\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Arquitectura.Infraestructura\\Repositories\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\Kikemora\\source\\repos\\MaquetadoArquitectura\\Arquitectura.Infraestructura\\Repositories\\EmployeeService.cs",
+              "RelativeToolTip": "Arquitectura.Infraestructura\\Repositories\\EmployeeService.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAADgAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T22:56:09.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\Kikemora\\source\\repos\\MaquetadoArquitectura\\Arquitectura.Api\\Controllers\\v1\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "Arquitectura.Api\\Controllers\\v1\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\Kikemora\\source\\repos\\MaquetadoArquitectura\\Arquitectura.Api\\Controllers\\v1\\EmpleadosController.cs",
+              "RelativeToolTip": "Arquitectura.Api\\Controllers\\v1\\EmpleadosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T22:47:09.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Kikemora\\source\\repos\\MaquetadoArquitectura\\Arquitectura.Aplication\\Handlers\\Todo\\Queries\\GetAll\\GetAllQuery.cs",
+              "RelativeDocumentMoniker": "Arquitectura.Aplication\\Handlers\\Todo\\Queries\\GetAll\\GetAllQuery.cs",
+              "ToolTip": "C:\\Users\\Kikemora\\source\\repos\\MaquetadoArquitectura\\Arquitectura.Aplication\\Handlers\\Todo\\Queries\\GetAll\\GetAllQuery.cs",
+              "RelativeToolTip": "Arquitectura.Aplication\\Handlers\\Todo\\Queries\\GetAll\\GetAllQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T22:45:37.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAllHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Kikemora\\source\\repos\\MaquetadoArquitectura\\Arquitectura.Aplication\\Handlers\\Todo\\Queries\\GetAll\\GetAllHandler.cs",
+              "RelativeDocumentMoniker": "Arquitectura.Aplication\\Handlers\\Todo\\Queries\\GetAll\\GetAllHandler.cs",
+              "ToolTip": "C:\\Users\\Kikemora\\source\\repos\\MaquetadoArquitectura\\Arquitectura.Aplication\\Handlers\\Todo\\Queries\\GetAll\\GetAllHandler.cs",
+              "RelativeToolTip": "Arquitectura.Aplication\\Handlers\\Todo\\Queries\\GetAll\\GetAllHandler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T22:45:36.576Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

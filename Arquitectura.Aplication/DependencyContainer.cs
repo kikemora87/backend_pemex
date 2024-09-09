@@ -12,8 +12,8 @@ namespace Arquitectura.Aplication
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
-            /*services.AddAutoMapper(Assembly.GetExecutingAssembly());
-            services.AddMediatR(conf => conf.RegisterServicesFromAssembly(typeof(DependencyContainer).Assembly));*/
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            services.AddMediatR(conf => conf.RegisterServicesFromAssembly(typeof(DependencyContainer).Assembly));
 
             return services;
         }
