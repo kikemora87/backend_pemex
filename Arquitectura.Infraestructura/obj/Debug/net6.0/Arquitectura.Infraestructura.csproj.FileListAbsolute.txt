@@ -4,3 +4,13 @@ C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Infraestructur
 C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Infraestructura\obj\Debug\net6.0\Arquitectura.Infraestructura.AssemblyInfo.cs
 C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Infraestructura\obj\Debug\net6.0\Arquitectura.Infraestructura.csproj.CoreCompileInputs.cache
 C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Infraestructura\obj\Debug\net6.0\Arquitectura.Infraestructura.sourcelink.json
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Infraestructura\bin\Debug\net6.0\Arquitectura.Infraestructura.deps.json
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Infraestructura\bin\Debug\net6.0\Arquitectura.Infraestructura.dll
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Infraestructura\bin\Debug\net6.0\Arquitectura.Infraestructura.pdb
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Infraestructura\bin\Debug\net6.0\Arquitectura.Domain.dll
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Infraestructura\bin\Debug\net6.0\Arquitectura.Domain.pdb
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Infraestructura\obj\Debug\net6.0\Arquitec.3D488674.Up2Date
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Infraestructura\obj\Debug\net6.0\Arquitectura.Infraestructura.dll
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Infraestructura\obj\Debug\net6.0\refint\Arquitectura.Infraestructura.dll
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Infraestructura\obj\Debug\net6.0\Arquitectura.Infraestructura.pdb
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Infraestructura\obj\Debug\net6.0\ref\Arquitectura.Infraestructura.dll

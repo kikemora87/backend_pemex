@@ -4,3 +4,13 @@ C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Aplication\obj
 C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Aplication\obj\Debug\net6.0\Arquitectura.Aplication.AssemblyInfo.cs
 C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Aplication\obj\Debug\net6.0\Arquitectura.Aplication.csproj.CoreCompileInputs.cache
 C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Aplication\obj\Debug\net6.0\Arquitectura.Aplication.sourcelink.json
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Aplication\bin\Debug\net6.0\Arquitectura.Aplication.deps.json
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Aplication\bin\Debug\net6.0\Arquitectura.Aplication.dll
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Aplication\bin\Debug\net6.0\Arquitectura.Aplication.pdb
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Aplication\bin\Debug\net6.0\Arquitectura.Domain.dll
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Aplication\bin\Debug\net6.0\Arquitectura.Domain.pdb
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Aplication\obj\Debug\net6.0\Arquitec.7B459339.Up2Date
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Aplication\obj\Debug\net6.0\Arquitectura.Aplication.dll
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Aplication\obj\Debug\net6.0\refint\Arquitectura.Aplication.dll
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Aplication\obj\Debug\net6.0\Arquitectura.Aplication.pdb
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Aplication\obj\Debug\net6.0\ref\Arquitectura.Aplication.dll

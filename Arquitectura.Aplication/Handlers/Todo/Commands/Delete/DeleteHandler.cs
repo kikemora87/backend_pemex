@@ -1,4 +1,5 @@
-﻿using Arquitectura.Domain.DTOs;
+﻿using Arquitectura.Aplication.Handlers.Todo.Queries.GetAll;
+using Arquitectura.Domain.DTOs;
 using Arquitectura.Domain.Interfaces.Repositories;
 using Arquitectura.Domain.POCOs;
 using AutoMapper;
@@ -21,14 +22,14 @@ namespace Arquitectura.Aplication.Handlers.Todo.Commands.Delete
             _logger = logger;
         }
 
-        public async Task<ResponseDTO<Guid>> Handle(DeleteCommand request, CancellationToken cancellationToken)
+        public async Task<ResponseDTO<int>> Handle(DeleteCommand request, CancellationToken cancellationToken)
         {
             try
             {
                 var entity = await _repository.GetEmployee(request.Id);
 
                 if (entity == null)
-                    return new ResponseDTO<Guid>()
+                    return new ResponseDTO<int>()
                     {
                         Success = false,
                         ErrorMessage = "El registro no se ha encontrado",
@@ -38,7 +39,7 @@ namespace Arquitectura.Aplication.Handlers.Todo.Commands.Delete
 
                 bool todo = await _repository.DeleteEmployee(request.Id);
 
-                return new ResponseDTO<Guid>()
+                return new ResponseDTO<int>()
                 {
                     Success = false,
                     ErrorMessage = "Error interno en el servidor",
@@ -47,7 +48,7 @@ namespace Arquitectura.Aplication.Handlers.Todo.Commands.Delete
             }
             catch (Exception ex)
             {
-                return new ResponseDTO<Guid>()
+                return new ResponseDTO<int>()
                 {
                     Success = false,
                     ErrorMessage = "Error interno en el servidor",

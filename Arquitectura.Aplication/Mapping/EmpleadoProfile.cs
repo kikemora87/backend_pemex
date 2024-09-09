@@ -1,38 +1,63 @@
-﻿using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Arquitectura.Aplication.Handlers.Todo.Commands.Create;
+using Arquitectura.Aplication.Handlers.Todo.Commands.Update;
 using Arquitectura.Domain.DTOs;
 using Arquitectura.Domain.POCOs;
 using AutoMapper;
+using Microsoft.AspNetCore.Http;
 
 namespace Arquitectura.Aplication.Mapping
 {
-    internal class EmpleadoProfile
+    public class EmpleadoProfile : Profile
     {
-        public TodoProfile()
+        public EmpleadoProfile()
         {
-            CreateMap<Todo, TodoDTO>()
-                .ForMember(x => x.Id, x => x.MapFrom(prop => prop.Id))
-                .ForMember(x => x.Nombre, x => x.MapFrom(prop => prop.Name))
-                .ForMember(x => x.Descripcion, x => x.MapFrom(prop => prop.Description))
-                .ForMember(x => x.FechaCreacion, x => x.MapFrom(prop => prop.CreatedAt))
+            CreateMap<Empleado, AllEmpleados>()
+                .ForMember(x => x.idEmpleado, x => x.MapFrom(prop => prop.idEmpleado))
+                .ForMember(x => x.numeroEmpleado, x => x.MapFrom(prop => prop.numeroEmpleado))
+                .ForMember(x => x.nombre, x => x.MapFrom(prop => prop.nombre))
+                .ForMember(x => x.apellido, x => x.MapFrom(prop => prop.apellido))
+                .ForMember(x => x.genero, x => x.MapFrom(prop => prop.genero))
+                .ForMember(x => x.fechaNacimiento, x => x.MapFrom(prop => prop.fechaNacimiento))
+                .ForMember(x => x.telefono, x => x.MapFrom(prop => prop.telefono))
+                .ForMember(x => x.correo, x => x.MapFrom(prop => prop.correo))
+                .ForMember(x => x.rfc, x => x.MapFrom(prop => prop.rfc))
+                .ForMember(x => x.domicilio, x => x.MapFrom(prop => prop.domicilio))
+                .ForMember(x => x.ciudad, x => x.MapFrom(prop => prop.ciudad))
+                .ForMember(x => x.estado, x => x.MapFrom(prop => prop.estado))
+                .ForMember(x => x.pais, x => x.MapFrom(prop => prop.pais))
+                .ForMember(x => x.filecv, x => x.MapFrom(prop => prop.filecv))
                 .ReverseMap();
 
-            CreateMap<Todo, UpdateCommand>()
-                .ForMember(x => x.Nombre, x => x.MapFrom(prop => prop.Name))
-                .ForMember(x => x.Descripcion, x => x.MapFrom(prop => prop.Description))
+            CreateMap<Empleado, UpdateCommand>()
+                .ForMember(x => x.idEmpleado, x => x.MapFrom(prop => prop.idEmpleado))
+                .ForMember(x => x.numeroEmpleado, x => x.MapFrom(prop => prop.numeroEmpleado))
+                .ForMember(x => x.nombre, x => x.MapFrom(prop => prop.nombre))
+                .ForMember(x => x.apellido, x => x.MapFrom(prop => prop.apellido))
+                .ForMember(x => x.genero, x => x.MapFrom(prop => prop.genero))
+                .ForMember(x => x.fechaNacimiento, x => x.MapFrom(prop => prop.fechaNacimiento))
+                .ForMember(x => x.telefono, x => x.MapFrom(prop => prop.telefono))
+                .ForMember(x => x.correo, x => x.MapFrom(prop => prop.correo))
+                .ForMember(x => x.rfc, x => x.MapFrom(prop => prop.rfc))
+                .ForMember(x => x.domicilio, x => x.MapFrom(prop => prop.domicilio))
+                .ForMember(x => x.ciudad, x => x.MapFrom(prop => prop.ciudad))
+                .ForMember(x => x.estado, x => x.MapFrom(prop => prop.estado))
+                .ForMember(x => x.pais, x => x.MapFrom(prop => prop.pais))
                 .ReverseMap();
 
-            CreateMap<Todo, CreateCommand>()
-               .ForMember(x => x.Nombre, x => x.MapFrom(prop => prop.Name))
-               .ForMember(x => x.Descripcion, x => x.MapFrom(prop => prop.Description))
+            CreateMap<Empleado, CreateCommand>()
+                .ForMember(x => x.numeroEmpleado, x => x.MapFrom(prop => prop.numeroEmpleado))
+                .ForMember(x => x.nombre, x => x.MapFrom(prop => prop.nombre))
+                .ForMember(x => x.apellido, x => x.MapFrom(prop => prop.apellido))
+                .ForMember(x => x.genero, x => x.MapFrom(prop => prop.genero))
+                .ForMember(x => x.fechaNacimiento, x => x.MapFrom(prop => prop.fechaNacimiento))
+                .ForMember(x => x.telefono, x => x.MapFrom(prop => prop.telefono))
+                .ForMember(x => x.correo, x => x.MapFrom(prop => prop.correo))
+                .ForMember(x => x.rfc, x => x.MapFrom(prop => prop.rfc))
+                .ForMember(x => x.domicilio, x => x.MapFrom(prop => prop.domicilio))
+                .ForMember(x => x.ciudad, x => x.MapFrom(prop => prop.ciudad))
+                .ForMember(x => x.estado, x => x.MapFrom(prop => prop.estado))
+                .ForMember(x => x.pais, x => x.MapFrom(prop => prop.pais))
                .ReverseMap();
-
-            CreateMap<UpdatePdfCommand, Todo>()
-              .ForMember(x => x.Id, x => x.MapFrom(prop => prop.Id))
-              .ForMember(x => x.Pdf, x => x.MapFrom(prop => GetString(prop.File)))
-              .ReverseMap();
         }
 
         private string GetString(IFormFile file)

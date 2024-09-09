@@ -1,6 +1,13 @@
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\bin\Debug\net6.0\Arquitectura.Domain.deps.json
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\bin\Debug\net6.0\Arquitectura.Domain.dll
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\bin\Debug\net6.0\Arquitectura.Domain.pdb
 C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\Arquitectura.Domain.csproj.AssemblyReference.cache
 C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\Arquitectura.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\Arquitectura.Domain.AssemblyInfoInputs.cache
 C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\Arquitectura.Domain.AssemblyInfo.cs
 C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\Arquitectura.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\Arquitectura.Domain.sourcelink.json
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\Arquitectura.Domain.dll
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\refint\Arquitectura.Domain.dll
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\Arquitectura.Domain.pdb
+C:\Users\Kikemora\source\repos\MaquetadoArquitectura\Arquitectura.Domain\obj\Debug\net6.0\ref\Arquitectura.Domain.dll

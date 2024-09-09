@@ -12,8 +12,9 @@ namespace Arquitectura.Domain.Interfaces.Repositories
     {
         Task<bool> CreateEmployee(Empleado employee);
         Task<Empleado> GetEmployee(int id);
-        Task<List<Empleado>> GetEmployeeList(PaginacionDTO paginacionDTO);
-        Task<Empleado> UpdateEmployee(Empleado employee);
+        //Task<List<Empleado>> GetEmployeeList(PaginacionDTO paginacionDTO);
+        Task<List<Empleado>> GetEmployeeList();
+        Task<bool> UpdateEmployee(Empleado employee);
         Task<bool> DeleteEmployee(int key);
     }
 }

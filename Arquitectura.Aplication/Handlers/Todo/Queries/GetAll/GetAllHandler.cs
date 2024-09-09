@@ -40,7 +40,7 @@ namespace Arquitectura.Aplication.Handlers.Todo.Queries.GetAll
 
                 return new ResponseDTO<List<AllEmpleados>>
                 {
-                    Data = _mapper.Map<List<AllEmpleados>>(todos.OrderByDescending(x => x.CreatedAt)),
+                    Data = _mapper.Map<List<AllEmpleados>>(todos.OrderByDescending(x => x.idEmpleado)),
                     Status = StatusCodes.Status200OK
                 };
             }

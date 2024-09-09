@@ -1,4 +1,5 @@
-﻿using Arquitectura.Domain.DTOs;
+﻿using Arquitectura.Aplication.Handlers.Todo.Queries.GetAll;
+using Arquitectura.Domain.DTOs;
 using Arquitectura.Domain.Interfaces.Repositories;
 using AutoMapper;
 using MediatR;
@@ -35,7 +36,7 @@ namespace Arquitectura.Aplication.Handlers.Todo.Commands.Update
 
                 return new ResponseDTO<int>()
                 {
-                    Data = todo
+                    Success = todo
                 };
             }
             catch (Exception ex)

@@ -28,9 +28,9 @@ namespace Arquitectura.Infraestructura.Repositories
             return true;
         }
 
-        public async Task<List<Empleado>> GetEmployeeList(PaginacionDTO paginacionDTO)
+        public async Task<List<Empleado>> GetEmployeeList()  //PaginacionDTO paginacionDTO
         {
-            string Ordenamiento = "DESC";
+            /*string Ordenamiento = "DESC";
             string Filtro = "";
             int page = 0;
             if (paginacionDTO.Orden != "")
@@ -53,7 +53,12 @@ namespace Arquitectura.Infraestructura.Repositories
                                                                     "ORDER BY idempleado " + Ordenamiento + " " +
                                                                     "LIMIT " + paginacionDTO.RecordsPorPagina + " OFFSET " + page,
                                                                     new { });
+            return employeeList;*/
+            var employeeList = await _dbService.GetAll<Empleado>(@"SELECT * 
+                                                                    FROM public.empleados WHERE activo=1",
+                                                                   new { });
             return employeeList;
+
         }
 
 
@@ -63,13 +68,13 @@ namespace Arquitectura.Infraestructura.Repositories
             return employeeList;
         }
 
-        public async Task<Empleado> UpdateEmployee(Empleado employee)
+        public async Task<bool> UpdateEmployee(Empleado employee)
         {
             var updateEmployee =
                 await _dbService.EditData(
                     "Update public.empleados SET numeroempleado=@numeroempleado, nombre=@nombre, apellido=@apellido, genero=@genero, fechanacimiento=@fechanacimiento, telefono=@telefono, correo=@correo, rfc=@rfc, domicilio=@domicilio, ciudad=@ciudad, estado=@estado, pais=@pais, filecv=@filecv WHERE idempleado=@idempleado",
                     employee);
-            return employee;
+            return true;
         }
 
         public async Task<bool> DeleteEmployee(int id)
